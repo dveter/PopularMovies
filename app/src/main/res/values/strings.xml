@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="action_sort">sort</string>
+    <string name="sort_most_popular">By Most Popular</string>
+    <string name="sort_highest_rated">By Highest Rated</string>
+    <string name="toast_sort_by_popular">Sorting by most popular...</string>
+    <string name="toast_sort_by_rated">Sorting by highest rated...</string>
+    <string name="err_fetch_movies">Unable to fetch movies data.</string>
+    <string name="err_parse_response">Unable to parse response from server...</string>
+    <string name="already_sorted_most_popular">Already sorted by \'most popular\'...</string>
+    <string name="already_sorted_hr">Already sorted by \'highest rated\'...</string>
+    <string name="not_available">N/A</string>
+    <string name="layoutInternetError">Internet connection error.</string>
+    <string name="layoutTapToRetry">Tap to retry.</string>
+    <string name="loadingPage">Loading page...</string>
+</resources>
