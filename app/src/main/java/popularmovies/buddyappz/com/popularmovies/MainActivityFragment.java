@@ -26,6 +26,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import popularmovies.buddyappz.com.popularmovies.beans.Movie;
 import popularmovies.buddyappz.com.popularmovies.data.MovieDbColumns;
 import popularmovies.buddyappz.com.popularmovies.data.MoviesContentProvider;
 

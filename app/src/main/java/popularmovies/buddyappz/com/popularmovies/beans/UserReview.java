@@ -1,4 +1,4 @@
-package popularmovies.buddyappz.com.popularmovies;
+package popularmovies.buddyappz.com.popularmovies.beans;
 
 
 import com.google.gson.annotations.Expose;

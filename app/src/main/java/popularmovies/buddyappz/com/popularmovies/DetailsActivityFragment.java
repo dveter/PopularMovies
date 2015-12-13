@@ -33,6 +33,11 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
+import popularmovies.buddyappz.com.popularmovies.beans.Movie;
+import popularmovies.buddyappz.com.popularmovies.beans.Trailer;
+import popularmovies.buddyappz.com.popularmovies.beans.UserReview;
+import popularmovies.buddyappz.com.popularmovies.beans.UserReviewResponse;
+import popularmovies.buddyappz.com.popularmovies.beans.VideosResponse;
 import popularmovies.buddyappz.com.popularmovies.data.MovieDbColumns;
 import popularmovies.buddyappz.com.popularmovies.data.MoviesContentProvider.Movies;
 import retrofit.Call;

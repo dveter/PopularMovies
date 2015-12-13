@@ -1,7 +1,5 @@
 package popularmovies.buddyappz.com.popularmovies;
 
-import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -9,6 +7,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import popularmovies.buddyappz.com.popularmovies.beans.Movie;
 
 /**
  * Created by dejan on 22/07/15.

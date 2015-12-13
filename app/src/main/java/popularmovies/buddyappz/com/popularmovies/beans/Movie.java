@@ -1,10 +1,8 @@
-package popularmovies.buddyappz.com.popularmovies;
+package popularmovies.buddyappz.com.popularmovies.beans;
 
 import android.database.Cursor;
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import popularmovies.buddyappz.com.popularmovies.data.MovieDbColumns;
 
 /**
  * Created by dejan on 22/07/15.

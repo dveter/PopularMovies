@@ -3,8 +3,7 @@ apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.0"
-
+    buildToolsVersion "23.0.1"
     defaultConfig {
         applicationId "com.buddyappz.nanodegree.popularmovies"
         minSdkVersion 15

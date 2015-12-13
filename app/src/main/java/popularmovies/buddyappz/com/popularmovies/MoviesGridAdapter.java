@@ -14,6 +14,9 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+import popularmovies.buddyappz.com.popularmovies.CustomItemClickListener;
+import popularmovies.buddyappz.com.popularmovies.beans.Movie;
+
 /**
  * Created by dejan on 22/07/15.
  */
