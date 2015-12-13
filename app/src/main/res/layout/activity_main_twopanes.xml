@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:divider="?android:attr/listDivider"
+    android:weightSum="100"
+    android:baselineAligned="false"
+    tools:context=".MainActivity">
+
+    <fragment class="popularmovies.buddyappz.com.popularmovies.MainActivityFragment"
+        android:id="@+id/fragmentMovies"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="@integer/movie_list_percent"/>
+
+    <fragment class="popularmovies.buddyappz.com.popularmovies.DetailsActivityFragment"
+        android:id="@+id/fragmentDetails"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="@integer/movie_detail_percent"/>
+
+</LinearLayout>
