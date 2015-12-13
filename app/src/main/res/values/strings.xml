@@ -11,8 +11,15 @@
     <string name="err_parse_response">Unable to parse response from server...</string>
     <string name="already_sorted_most_popular">Already sorted by \'most popular\'...</string>
     <string name="already_sorted_hr">Already sorted by \'highest rated\'...</string>
+    <string name="already_sorted_fav">Already displaying favorites...</string>
     <string name="not_available">N/A</string>
     <string name="layoutInternetError">Internet connection error.</string>
     <string name="layoutTapToRetry">Tap to retry.</string>
     <string name="loadingPage">Loading page...</string>
+    <string name="sort_favorits">Favorites</string>
+    <string name="toast_sort_by_favorites">Displaying my favorites...</string>
+    <string name="share_movie">Share Movie</string>
+    <string name="error_reviews_fetch">Error fetching user reviews :-(</string>
+    <string name="error_trailers_fetch">Error fetching movie trailers :-(</string>
+    <string name="no_movies_favorited">No movies favourited yet.</string>
 </resources>

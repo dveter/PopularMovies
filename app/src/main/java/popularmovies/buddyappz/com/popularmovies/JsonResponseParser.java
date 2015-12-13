@@ -37,7 +37,8 @@ public class JsonResponseParser {
             for (int i = 0; i < moviesJsonArray.length(); i++) {
                 movieDataJson = moviesJsonArray.getJSONObject(i);
 
-                movies.add(new Movie(movieDataJson.getString("original_title"),
+                movies.add(new Movie(0, movieDataJson.getLong("id"),
+                        movieDataJson.getString("original_title"),
                         movieDataJson.getString("poster_path"),
                         movieDataJson.getDouble("vote_average"),
                         movieDataJson.getString("backdrop_path"),

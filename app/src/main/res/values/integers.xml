@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- On devices with a smallest width of 600dp or more, the two-pane layout should allocate
+         a larger portion of the screen to the detail fragment. -->
+    <integer name="movie_list_percent">53</integer>
+    <integer name="movie_detail_percent">47</integer>
+
+</resources>

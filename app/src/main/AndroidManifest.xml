@@ -22,6 +22,13 @@
             android:name=".DetailsActivity"
             android:label="@string/title_activity_details" >
         </activity>
+
+        <provider
+            android:name=".data.generated.MoviesContentProvider"
+            android:authorities="com.buddyappz.popularmovies.MoviesProvider"
+            android:enabled="true"
+            android:exported="true" >
+        </provider>
     </application>
 
 </manifest>
